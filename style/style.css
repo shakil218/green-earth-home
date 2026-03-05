@@ -1,0 +1,11 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.bg-primary {
+  background-color: #15803d;
+}
+
+.bg-secondary {
+  background-color: #facc15;
+}
