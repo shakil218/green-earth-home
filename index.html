@@ -261,7 +261,22 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <!-- footer -->
+    <footer class="bg-[#14532D] text-white py-6">
+      <div class="w-11/12 max-w-6xl mx-auto text-center text-sm md:text-base">
+        &copy; <span id="current-year"></span> Green Earth. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- Internal Js -->
+    <script>
+      // Auto update copyright year
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+
+    <!-- External Js -->
     <script src="./js/script.js"></script>
   </body>
 </html>
