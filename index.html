@@ -46,8 +46,10 @@
     <header>
       <!-- navbar -->
       <div class="navbar bg-primary text-white shadow-sm">
+        <!-- navbar start -->
         <div class="navbar-start">
           <div class="dropdown">
+            <!-- hamburger menu -->
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -64,6 +66,7 @@
                 />
               </svg>
             </div>
+            <!-- hamburger menu list -->
             <ul
               tabindex="-1"
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
@@ -73,8 +76,9 @@
               <li><a>Plant a Tree</a></li>
             </ul>
           </div>
-          <a class="text-xl font-bold text-white ">Green Earth</a>
+          <a class="text-xl font-bold text-white">Green Earth</a>
         </div>
+        <!-- navbar center -->
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
             <li><a>About</a></li>
@@ -82,12 +86,48 @@
             <li><a>Plant a Tree</a></li>
           </ul>
         </div>
+        <!-- navbar end -->
         <div class="navbar-end">
-          <a class="btn bg-secondary rounded-full border-none text-[#15803D]">Plant a Tree</a>
+          <a class="btn bg-secondary text-[#15803D] px-6 py-2 rounded-full border-none "
+            >Plant a Tree</a
+          >
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- banner -->
+      <section class="bg-[#CFF0DC] py-16 relative overflow-hidden">
+        <!-- banner content -->
+        <div class="text-center space-y-5 relative z-10 px-4">
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#15803D]">
+            Plant a Tree, Grow a Future
+          </h1>
+
+          <p class="max-w-xl mx-auto text-[#1F2937]">
+            Join our mission to plant 1 million trees and make the Earth greener
+            for future generations.
+          </p>
+
+          <button class="bg-secondary text-[#15803D] px-6 py-2 rounded-full font-semibold">
+            Get Involved
+          </button>
+        </div>
+
+        <!-- Left Leaf -->
+        <img
+          src="./assets/hero-leaf1.png"
+          class="absolute left-2 md:left-5 bottom-0 w-32 md:w-52 lg:w-96"
+          alt="leaf"
+        />
+
+        <!-- Right Leaf -->
+        <img
+          src="./assets/hero-leaf2.png"
+          class="absolute right-2 md:right-5 bottom-0 w-32 md:w-52 lg:w-96"
+          alt="leaf"
+        />
+      </section>
+    </main>
     <footer></footer>
     <script src="./js/script.js"></script>
   </body>
